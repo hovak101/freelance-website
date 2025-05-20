@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter/Inter-VariableFont_opsz.ttf') format('truetype');
+    font-weight: 100 900; 
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter/Inter-Italic-VariableFont_opsz.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@theme {
+    --font-Inter: "Inter", "sans-serif"; 
+    --color-dark: oklch(0.2642 0.065 276.1);
+    --color-red: oklch(0.579 0.222 21.04);
+    --color-body: oklch(0.6941 0.0318 270.93);
+}
