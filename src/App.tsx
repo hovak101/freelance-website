@@ -7,7 +7,7 @@ const App = () => {
   return (
     <main className="px-3 pt-3 font-Inter flex flex-col text-dark">
       <Navbar/>
-      <Hero/>
+      <Hero />
       <About/>
     </main>
   );
